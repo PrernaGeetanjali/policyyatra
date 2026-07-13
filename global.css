@@ -387,7 +387,7 @@ body.is-loading {
     --content-max: 1440px;
     --section-inner-max: 1480px;
     --hero-shell-max: 1920px;
-    --hero-inner-max: 1700px;
+    --hero-inner-max: 1576px;
     --page-gutter: clamp(48px, 4.5vw, 100px);
     --section-gap: 128px;
     --header-bar-h: 88px;

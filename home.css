@@ -2501,7 +2501,7 @@ span.benefits-of-becoming {
   height: 640px;
   position: absolute;
   margin: 0 !important;
-  top: 4519px;
+  top: 4970px;
   left: 100px;
   object-fit: contain;
   flex-shrink: 0;
@@ -4240,10 +4240,11 @@ span.benefits-of-becoming {
   font-size: clamp(24px, 2.5vw, 36px);
   font-weight: 900;
   font-family: Sansation, sans-serif;
-  color: #fff;
-  background: none;
-  -webkit-background-clip: unset;
-  -webkit-text-fill-color: #fff;
+  background: linear-gradient(to right, #B3F080, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   display: block;
   flex-shrink: 0;
   z-index: 1;
@@ -8308,10 +8309,9 @@ span.benefits-of-becoming {
     font-size: 56px;
     line-height: 58px;
     width: 720px;
-    left: calc(var(--page-gutter, 80px) - 1px);
-    top: -4px;
-
-  }
+    left: calc(var(--page-gutter, 80px) - -59px);
+    top: 87px;
+}
 
   .benefits-of-becoming {
     line-height: 58px;
@@ -8335,7 +8335,21 @@ span.benefits-of-becoming {
 
   .benefit-image-row {
     gap: 24px;
+    margin-left: 4%;
+    margin-top: 9%
   }
+
+  .benefit-descriptions {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0px;
+    max-width: 100%;
+    margin-left: 4%;
+}
 
   .image-row-items {
     height: 400px;
@@ -8348,7 +8362,7 @@ span.benefits-of-becoming {
   }
 
   .training-support-expert-guidan-container {
-    width: 380px;
+    width: 350px;
   }
 
   .home-child {
@@ -8539,7 +8553,7 @@ span.benefits-of-becoming {
   .home-inner4 {
     width: 100%;
     max-width: 1872px;
-    padding: 0 clamp(60px, 6vw, 100px) 36px;
+    padding: 10px clamp(41px, 20vw, 158px) 35px;
   }
 
   .frame-parent29 {
@@ -8620,6 +8634,15 @@ span.benefits-of-becoming {
     max-width: 1480px;
   }
 
+  .gradient-parent {
+    top: 0px;
+    background: url(./public/benefit.png) no-repeat;
+    width: 1600px;
+    max-width: 1600px;
+    height: 222px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
   .vec-icon2 {
     width: 214px;
@@ -8644,10 +8667,23 @@ span.benefits-of-becoming {
   height: 116%;
   width: 89%;
   margin: 0 !important;
-  top: -78px;
+  top: 55px;
   right: 18px;
   bottom: 0;
-  left: -110px;
+  left: 306px;
+}
+
+.bg-icon2 {
+  height: 96%;
+  width: 100%;
+  top: -74px;
+  right: 42px;
+  bottom: 0;
+  left: -356px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
 }
 
 .shape-icon {
@@ -8674,12 +8710,31 @@ span.benefits-of-becoming {
   height: 152px;
 }
 
+.logo-1-icon {
+  position: absolute;
+  top: 0;
+  left: 951px;
+}
+
+.policyyatra-insurance-posp {
+  margin: 0;
+  position: absolute;
+  top: 287px;
+  left: calc(59% - 780px);
+}
+
+.stroke-stroke-icon2 {
+  top: 293.2px;
+  left: 789.2px;
+  width: 1533.1px;
+}
+
 .left-icon {
-  width: 576px;
-  height: 616px;
+  width: 584px;
+  height: 674px;
   position: absolute;
   margin: 0 !important;
-  top: 5605px;
+  top: 5656px;
   left: 310px;
   object-fit: contain;
   flex-shrink: 0;
@@ -8728,7 +8783,7 @@ span.benefits-of-becoming {
 .path-icon {
   width: min(2083.5px, calc(100vw + 170px));
   height: auto;
-  top: 2195px;
+  top: 2255px;
   right: -152.9px;
   z-index: 2;
   pointer-events: none;
@@ -8738,7 +8793,7 @@ span.benefits-of-becoming {
 
 
   .home-child {
-    max-width: 1702px;
+    max-width: 1622px;
   }
 
   .frame-parent13 {
@@ -8773,9 +8828,10 @@ span.benefits-of-becoming {
     width: 100%;
     max-width: min(1872px, 96vw);
   }
+  
 
   .section-132 {
-    margin-left: 0;
+    margin-left: 47px;
     width: 100%;
     max-width: 100%;
   }

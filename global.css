@@ -26,6 +26,8 @@
   --design-w: 1600;
   --header-top: clamp(12px, 1.4vw, 23px);
   --header-bar-h: clamp(52px, 5.3vw, 85px);
+  --header-inset-x: clamp(24px, 4vw, 160px);
+  --header-content-gap: 56px;
   --header-offset: calc(var(--header-top) + var(--header-bar-h) + 12px);
   --header-h: var(--header-offset);
   --radius-lg: 24px;
@@ -389,6 +391,8 @@ body.is-loading {
     --page-gutter: clamp(48px, 4.5vw, 100px);
     --section-gap: 128px;
     --header-bar-h: 88px;
+    --header-inset-x: var(--page-gutter);
+    --header-content-gap: 64px;
   }
 }
 
@@ -399,6 +403,7 @@ body.is-loading {
     --hero-shell-max: 1920px;
     --page-gutter: 80px;
     --section-gap: 136px;
+    --header-inset-x: var(--page-gutter);
   }
 }
 
@@ -414,5 +419,7 @@ body.is-loading {
     --page-gutter: 107px;
     --section-gap: 181px;
     --header-bar-h: clamp(88px, 3.4vw, 96px);
+    --header-inset-x: var(--page-gutter);
+    --header-content-gap: clamp(64px, 3vw, 80px);
   }
 }
